@@ -351,3 +351,7 @@ body {
 .content_p{
     font-size: 22px;
 }
+.content_img{
+    width: 350px;
+    float: right;
+}
