@@ -350,6 +350,7 @@ body {
 }
 .content_p{
     font-size: 22px;
+    text-align: left;
 }
 .content_img{
     width: 400px;
