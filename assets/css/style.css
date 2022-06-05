@@ -340,14 +340,14 @@ body {
   }
 
 .content_h1{
-    font-size: 45px;
+    font-size: 35px;
     text-transform: uppercase;
     text-align: left;
 }
 .content_hr{
     background:black;
-    height: 1px;
+    height: 5px;
 }
 .content_p{
-    font-size: 25px;
+    font-size: 22px;
 }
