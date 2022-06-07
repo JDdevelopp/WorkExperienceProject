@@ -371,6 +371,10 @@ body {
     margin-top: 20px;
     margin-right: 25px;
 }
+.content_equation{
+    width: 100%;
+
+}
 /* .lol{
     position: relative;
     background: linear-gradient(90deg,black,#1b1b1b,grey,white,white,grey,#1b1b1b,black);
