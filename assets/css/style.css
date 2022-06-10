@@ -187,7 +187,7 @@ body {
     margin: 5px 5px 50px 10px;
     font-size: 30px;
     border-radius: 100px;
-    width: max-content;
+    width: 100%;
     background: white;
     text-align: center;
     color: white;
