@@ -325,7 +325,7 @@ body {
 .sidebar::-webkit-scrollbar-track{
     background:#1b1b1b;
 }
-  
+
 .sidebar::-webkit-scrollbar-thumb{
     background: linear-gradient(90deg, black,rgb(173, 173, 173));
 }
@@ -334,57 +334,85 @@ body {
     background:grey;
 }
 
-  
+
 ::selection{
     color: white;
     background:grey;
   }
-
-.content_h1{
-    font-size: 35px;
-    text-transform: uppercase;
-    text-align: left;
-}
-.content_hr{
-    background:black;
-    height: 5px;
-}
-.content_p{
-    font-size: 22px;
-    text-align: left;
-}
-.content_img_right{
-    width: 400px;
-    float: right;
-}
-.content_img_right2{
-    width: 250px;
-    float: right;
-}
-.content_img_left{
-    width: 400px;
-    float: left;
-}
-.content_img_left2{
-    width: 250px;
-    float: left;
-    margin-top: 20px;
-    margin-right: 25px;
-}
-.content_equation{
-    width: 100%;
-
-}
-/* .lol{
-    position: relative;
-    background: linear-gradient(90deg,black,#1b1b1b,grey,white,white,grey,#1b1b1b,black);
-    background-size: 200%;
-    letter-spacing: 3px;
-    font-weight: 900;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip:text;
-    animation: animate 5s linear infinite;
-}
+  
+  .content_h1{
+      font-size: 35px;
+      text-transform: uppercase;
+      text-align: left;
+    }
+    .content_hr{
+        background:black;
+        height: 5px;
+    }
+    .content_p{
+        font-size: 22px;
+        text-align: left;
+    }
+    .content_img_right{
+        width: 400px;
+        float: right;
+    }
+    .content_img_right2{
+        width: 250px;
+        height: 450px;
+        float: right;
+    }
+    .content_img_left{
+        width: 350px;
+        float: left;
+    }
+    .content_img_left2{
+        width: 250px;
+        float: left;
+        margin-top: 20px;
+        margin-right: 25px;
+    }
+    .content_equation{
+        width: 100%;
+    }
+    .content_george_simon_ohm{
+        float: left;
+        height: 350px;
+        width: auto;
+        margin-right: 10px;
+    }
+    .grey_body{
+        background-color: rgba(150, 150, 150, 0.271);
+        margin-bottom:50px;
+        border-right: 35px solid #1b1b1b;
+        border-left: 8px solid #1b1b1b ;
+        text-align: left;
+        height: max-content;
+        padding: 25px;
+    }
+    .grey_body:hover{
+        background-color: rgba(255, 255, 255, 0.593);
+        transition: 0.5s ease;
+        box-shadow: 0px 0px 100px 1px black;
+    }
+    .grey_body h1{
+        text-align: left;
+        text-transform: uppercase;
+    }
+    .grey_body p{
+        font-size: 22px;
+        word-spacing: 4px;
+    }
+    /* .lol{
+        position: relative;
+        background: linear-gradient(90deg,black,#1b1b1b,grey,white,white,grey,#1b1b1b,black);
+        background-size: 200%;
+        letter-spacing: 3px;
+        font-weight: 900;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip:text;
+        animation: animate 5s linear infinite;
+    }
 @keyframes animate{
     0%{
         background-position: 0%;
