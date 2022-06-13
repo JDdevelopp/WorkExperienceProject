@@ -183,56 +183,66 @@ body {
 }
 
 .page_info{
-    padding: 20px 20px 20px 20px;
-    margin: 5px 5px 50px 10px;
-    font-size: 30px;
+    padding:40px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 55px;
     border-radius: 100px;
-    width: 100%;
+    width: 70%;
     background: white;
     text-align: center;
     color: white;
     background: linear-gradient(45deg, black, grey);
-    box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.page_info:hover{
+    transition:0.45s all ease-in-out;
+    box-shadow: 0px 0px 100px 25px rgba(0, 0, 0, 0.959);
 }
 
 .wrapper .main_content .enter_email{
+    border-radius:35px ;
     padding: 5px 5px 5px 5px;
-    margin: 5px 5px 30px 5px;
+    margin: 25px 5px 30px 5px;
     font-size: 25px;
     width: 75%;
     background: white;
     text-align: center;
     color: black;
     border: 10px solid #1b1b1b95;
-    border-top: 10px solid #1b1b1b95;
+    border-bottom: 10px solid #1b1b1b95;
     border-right: 10px solid #1b1b1b;
-    border-bottom: 10px solid #1b1b1b;
-    box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top: 10px solid #1b1b1b;
+    box-shadow: 0 15px 23px 0 rgb(0, 0, 0);
 }
 
 .wrapper .main_content .enter_message{
-    padding: 10px 10px 10px 10px;
-    margin: 5px 10px 30px 10px;
+    border-radius: 35px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 25px;
-    height: 250px;
-    width: 100%;
+    height: 200px;
+    width: 95%;
     background: white;
     text-align: center;
     color: black;
     border: 10px solid #1b1b1b95;
-    border-top: 10px solid #1b1b1b95;
+    border-bottom: 10px solid #1b1b1b95;
     border-right: 10px solid #1b1b1b;
-    border-bottom: 10px solid #1b1b1b;
-    box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top: 10px solid #1b1b1b;
+    box-shadow: 0 15px 23px 0 rgb(0, 0, 0);
 }
 
 .wrapper .main_content .send_button{
     padding: 10px 10px 10px 10px;
-    margin: 5px 5px 5px 5spx;
+    margin: 5px 5px 50px 5px;
     font-size: 25px;
     height: max-content;
     text-transform: uppercase;
-    width: max-content;
+    width: 20%;
     background: rgba(128, 128, 128, 0);
     text-align: center;
     color: black;
@@ -240,14 +250,16 @@ body {
     border-right: 10px solid #1b1b1b;
     border-bottom: 10px solid #1b1b1b;
     border-left:10px solid #1b1b1b95;
-    box-shadow: 0 15px 23px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
 }
 .wrapper .main_content .send_button:hover{
-    background: rgb(128, 128, 128);
+    transition: 0.5s;
     border-bottom: 10px solid #1b1b1b95;
-    border-left: 10px solid #1b1b1b;
     border-top: 10px solid #1b1b1b;
-    border-right:10px solid #1b1b1b95;
+    border-right: 10px solid #1b1b1b;
+    border-left:10px solid #1b1b1b95;
+    box-shadow: 0 15px 23px 0 rgb(0, 0, 0);
+    font-weight: 900;
 }
 
 
@@ -323,15 +335,19 @@ body {
 }
 
 .sidebar::-webkit-scrollbar-track{
-    background:#1b1b1b;
+    background:black;
 }
 
 .sidebar::-webkit-scrollbar-thumb{
-    background: linear-gradient(90deg, grey,rgb(218, 218, 218));
+    background: black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
 }
 
 .sidebar::-webkit-scrollbar-thumb:hover{
-    background:rgb(167, 167, 167);
+    background: #3b3b3b;
 }
 
 
@@ -421,3 +437,24 @@ body {
         background-position: 100%;
     }
 } */
+::-webkit-scrollbar{
+    width: 20px;
+}
+
+::-webkit-scrollbar-track{
+    background: linear-gradient(90deg, rgb(51, 51, 51),rgb(104, 101, 101));
+}
+
+::-webkit-scrollbar-thumb{
+    background: white;
+    box-shadow: 0px 0px 50px 40px white;
+    border-radius: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: white;
+}
