@@ -446,7 +446,21 @@ body {
     .grey_table h1{
         margin-bottom: 10px;
     }
-    .table_grey, th, td{
+    .table_grey, th{
+        padding: 5px;
+        margin: 0px;
+        background: white;
+        text-align: center;
+        font-weight: 400;
+        font-size: 30px;
+        text-shadow: 2px 0px #1b1b1b;
+        border-top: 10px solid black;
+        border-bottom: 10px solid black;
+        border-right: 10px solid grey;
+        border-left: 10px solid grey;
+        border-radius: 25px;
+    }
+    .table_grey, td{
         padding: 5px;
         margin: 0px;
         background: white;
@@ -465,9 +479,14 @@ body {
         font-weight:900 ;
         border-top: 10px solid black;
     }
+    .main_elements td:hover{
+        transition: 1s;
+        background: linear-gradient(-60deg, rgb(197, 194, 194), rgb(78, 78, 78),rgb(197, 194, 194));
+    }
     .main_ele td{
         font-weight: 900;
         padding: 15px;
+        font-size: 30px;
         background: white;
         text-align: center;
         text-transform: uppercase;
