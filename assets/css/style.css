@@ -400,6 +400,7 @@ body {
     .grey_body{
         background-color: rgba(150, 150, 150, 0.271);
         margin-bottom:50px;
+        margin-top:25px;
         border-right: 35px solid #1b1b1b;
         border-left: 8px solid #1b1b1b ;
         text-align: left;
@@ -419,6 +420,65 @@ body {
         font-size: 22px;
         word-spacing: 4px;
     }
+    .grey_table{
+        height: 350px;
+        width: auto;
+        margin-right: 10px;
+    }
+    .grey_table{
+        background-color: rgba(132, 132, 132, 0.471);
+        margin-bottom:30px;
+        margin-top:30px;
+        border-right: 35px solid #1b1b1b;
+        border-left: 8px solid #1b1b1b ;
+        text-align: left;
+        height: max-content;
+        padding: 25px;
+    }
+    .grey_table:hover{
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s;
+        box-shadow: 0px 0px 1000px 50px black;
+    }
+    .grey_table{
+        font-size: 20px;
+    }
+    .grey_table h1{
+        margin-bottom: 10px;
+    }
+    .table_grey, th, td{
+        padding: 5px;
+        margin: 0px;
+        background: white;
+        text-align: center;
+        font-weight: 400;
+        border-top: 10px solid black;
+        border-bottom: 10px solid black;
+        border-right: 10px solid grey;
+        border-left: 10px solid grey;
+        border-radius: 25px;
+    }
+    .main_elements td{
+        padding: 25px;
+        background: linear-gradient(60deg, rgb(197, 194, 194), rgb(78, 78, 78),rgb(197, 194, 194));
+        color: white;
+        font-weight:900 ;
+        border-top: 10px solid black;
+    }
+    .main_ele td{
+        font-weight: 900;
+        padding: 15px;
+        background: white;
+        text-align: center;
+        text-transform: uppercase;
+        border: 10px solid black;
+        border-radius: 25px;
+    }
+    .table_grey:hover{
+        transition: 0.5s;
+        background:rgba(132, 132, 132, 0.471);;
+    }
+
     /* .lol{
         position: relative;
         background: linear-gradient(90deg,black,#1b1b1b,grey,white,white,grey,#1b1b1b,black);
