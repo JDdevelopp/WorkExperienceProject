@@ -422,8 +422,9 @@ body {
     }
     .grey_table{
         height: 350px;
-        width: auto;
-        margin-right: 10px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .grey_table{
         background-color: rgba(132, 132, 132, 0.471);
@@ -433,7 +434,7 @@ body {
         border-left: 8px solid #1b1b1b ;
         text-align: left;
         height: max-content;
-        padding: 25px;
+        padding: 20px;
     }
     .grey_table:hover{
         background-color: rgb(255, 255, 255);
@@ -453,8 +454,7 @@ body {
         background: white;
         text-align: center;
         font-weight: 400;
-        font-size: 30px;
-        text-shadow: 2px 0px #1b1b1b;
+        font-size: 25px;
         border-top: 10px solid black;
         border-bottom: 10px solid black;
         border-right: 10px solid grey;
@@ -462,7 +462,8 @@ body {
         border-radius: 25px;
     }
     .table_grey, td{
-        padding: 5px;
+        font-size: 20px;
+        padding: 2px;
         margin: 0px;
         background: white;
         text-align: center;
@@ -471,18 +472,19 @@ body {
         border-bottom: 10px solid black;
         border-right: 10px solid grey;
         border-left: 10px solid grey;
-        border-radius: 25px;
+        border-radius: 0px;
     }
     .main_elements td{
-        padding: 25px;
-        background: linear-gradient(60deg, rgb(197, 194, 194), rgb(78, 78, 78),rgb(197, 194, 194));
+        padding: 20px;
+        font-size: 20px;
+        background: linear-gradient(90deg, rgb(197, 194, 194), rgb(78, 78, 78),rgb(197, 194, 194));
         color: white;
         font-weight:900 ;
         border-top: 10px solid black;
     }
     .main_elements td:hover{
         transition: 1s;
-        background: linear-gradient(-60deg, rgb(197, 194, 194), rgb(78, 78, 78),rgb(197, 194, 194));
+        background: linear-gradient(180deg, rgb(197, 194, 194), rgb(78, 78, 78),rgb(197, 194, 194));
     }
     .main_ele td{
         font-weight: 900;
@@ -536,5 +538,5 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover{
-    background: white;
+    background: grey;
 }
