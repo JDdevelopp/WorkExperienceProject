@@ -149,7 +149,11 @@ body {
 }
 .wrapper .main_content .profile_design{
     padding: 20px 20px 20px 20px;
-    margin: 10px 10px 75px 10px;
+    width: 85%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 40px;
     background: white;
     text-align: center;
@@ -235,7 +239,45 @@ body {
     border-top: 10px solid #1b1b1b;
     box-shadow: 0 15px 23px 0 rgb(0, 0, 0);
 }
-
+.wrapper .main_content .enter_email{
+    border-radius:100px ;
+    padding: 2px 2px 2px 2px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    width: 90%;
+    background: white;
+    text-align: center;
+    color: black;
+    border-left: 10px solid #1b1b1b95;
+    border-bottom: 10px solid #1b1b1b95;
+    border-right: 10px solid #1b1b1b;
+    border-top: 10px solid #1b1b1b;
+    box-shadow: 0 15px 23px 0 rgb(0, 0, 0);
+}
+.wrapper .main_content .enter_name{
+    border-radius:35px ;
+    padding: 2px 2px 2px 2px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    width: 49%;
+    background: white;
+    text-align: center;
+    color: black;
+    border: 10px solid #1b1b1b95;
+    border-bottom: 10px solid #1b1b1b95;
+    border-right: 10px solid #1b1b1b;
+    border-top: 10px solid #1b1b1b;
+    box-shadow: 0 15px 23px 0 rgb(0, 0, 0);
+}
+.contact_p{
+    font-size: 25px;
+}
 .wrapper .main_content .send_button{
     padding: 10px 10px 10px 10px;
     margin: 5px 5px 50px 5px;
@@ -500,25 +542,6 @@ body {
         transition: 0.5s;
         background:rgba(132, 132, 132, 0.471);;
     }
-
-    /* .lol{
-        position: relative;
-        background: linear-gradient(90deg,black,#1b1b1b,grey,white,white,grey,#1b1b1b,black);
-        background-size: 200%;
-        letter-spacing: 3px;
-        font-weight: 900;
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip:text;
-        animation: animate 5s linear infinite;
-    }
-@keyframes animate{
-    0%{
-        background-position: 0%;
-    }
-    100%{
-        background-position: 100%;
-    }
-} */
 ::-webkit-scrollbar{
     width: 20px;
 }
