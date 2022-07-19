@@ -70,10 +70,6 @@ body {
 .active{ 
     background: linear-gradient(-90deg,white,grey,#1b1b1b,black);
 }
-/* .wrapper .sidebar ul li a.active2{
-    color: white;
-    font-weight: 900;
-} */
 .wrapper .sidebar ul li:hover a{
     color: white;
 }
