@@ -20,19 +20,24 @@ body {
     width: 250px;
     height: 100%;
     padding:  30px 0;
-    overflow-y: scroll;
-    overflow-x: hidden; 
+    overflow-y:scroll;
+    overflow-x: hidden;
     background: linear-gradient(180deg,black,#1b1b1b, grey,#1b1b1b, black);
     
 }
 .wrapper .sidebar .sidebar_pic{
     width: 100px;
+    cursor:pointer;
     border-radius: 100%;
     margin-left: 75px;
     margin-right: 75px;
     margin-top: 0;
     margin-bottom: 30px;
     box-shadow:0px 0px 30px 15px rgb(103, 103, 103);
+}
+.wrapper .sidebar .sidebar_pic:hover{
+    transition: 1s;
+    box-shadow:0px 0px 30px 20px rgb(255, 255, 255);
 }
 .wrapper .sidebar h2{
     color: white;
@@ -64,13 +69,11 @@ body {
 }
 .active{ 
     background: linear-gradient(-90deg,white,grey,#1b1b1b,black);
-
 }
-.wrapper .sidebar ul li a.active2{
+/* .wrapper .sidebar ul li a.active2{
     color: white;
     font-weight: 900;
-
-}
+} */
 .wrapper .sidebar ul li:hover a{
     color: white;
 }
@@ -431,51 +434,47 @@ body {
     }
     .table_grey, th{
         width: 100%;
-        padding: 5px;
-        margin: 0px;
+        padding: 8px;
         background: white;
         text-align: center;
-        font-weight: 400;
-        font-size: 25px;
-        border-top: 10px solid black;
-        border-bottom: 10px solid black;
-        border-right: 10px solid grey;
-        border-left: 10px solid grey;
+        font-weight: 900;
+        font-size: 30px;
+        border-top: 8px solid black;
+        border-bottom: 8px solid black;
+        border-right: 8px solid grey;
+        border-left: 8px solid grey;
         border-radius: 25px;
     }
     .table_grey, td{
         font-size: 20px;
         padding: 2px;
-        margin: 0px;
         background: white;
         text-align: center;
-        font-weight: 400;
-        border-top: 10px solid black;
-        border-bottom: 10px solid black;
-        border-right: 10px solid grey;
-        border-left: 10px solid grey;
-        border-radius: 0px;
+        border-top: 5px solid black;
+        border-bottom: 5px solid black;
+        border-right: 5px solid grey;
+        border-left: 5px solid grey;
+        border-radius: 25px;
     }
     .main_elements td{
-        padding: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         font-size: 20px;
         background: linear-gradient(90deg, rgb(197, 194, 194), rgb(78, 78, 78),rgb(197, 194, 194));
         color: white;
-        font-weight:900 ;
-        border-top: 10px solid black;
-    }
-    .main_elements td:hover{
-        transition: 1s;
-        background: linear-gradient(180deg, rgb(197, 194, 194), rgb(78, 78, 78),rgb(197, 194, 194));
+        font-weight:900;
     }
     .main_ele td{
+        letter-spacing: 2px;
         font-weight: 900;
         padding: 15px;
         font-size: 30px;
         background: white;
         text-align: center;
         text-transform: uppercase;
-        border: 10px solid black;
+        border: 8px solid black;
         border-radius: 25px;
     }
     .table_grey:hover{
